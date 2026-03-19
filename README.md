@@ -272,16 +272,6 @@ If you find this repo helpful, **give it a star!** ⭐ Stars help this repo reac
 
 ---
 
-## 👨‍🏫 About the Trainer
-
-This program is designed and led as a live AI/ML learning initiative at **IIIT Basar**. The trainer guides **160+ students** through a structured curriculum — starting from the basics of Git all the way to building AI Agents.
-
-> *"The goal is not just to teach AI — it's to build a generation of students who can learn, build, and ship with confidence."*
-
-This repository is both a **classroom tool** and a **public showcase** of what dedicated students can accomplish when given the right guidance and structure.
-
----
-
 ## 📚 Resources & Learning Materials
 
 Check the **`notes/`** folder regularly! It will be updated with:
