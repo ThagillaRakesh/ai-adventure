@@ -31,6 +31,7 @@ Each stage builds on the previous one. **No shortcuts. No skipping. Trust the pr
 ai-adventure/
 │
 ├── README.md              ← You are here!
+├── CONTRIBUTING.md        ← Step-by-step submission guide (READ THIS!)
 ├── notes/                 ← Resources, books, and learning materials shared by the trainer
 │   └── .gitkeep
 ├── submissions/           ← YOUR work goes here!
@@ -47,156 +48,19 @@ This is where **you** submit your work. Each student creates their **own folder*
 
 ---
 
-## 📝 How to Submit Your Work (Step-by-Step Guide)
+## 📝 How to Submit Your Work
 
-> ⚠️ **Read every step carefully.** Do NOT skip anything. If you get stuck, ask for help — that's what learning is about!
+> 👉 **Read the full step-by-step guide here: [CONTRIBUTING.md](CONTRIBUTING.md)**
 
-### Step 0: Install Git (One-Time Setup)
+It covers everything from installing Git to creating a Pull Request — with real examples using `.ipynb` assignment files.
 
-If you haven't installed Git yet:
-- **Windows:** Download from [git-scm.com](https://git-scm.com/) and install (keep all defaults)
-- **Mac:** Open Terminal and type `git --version` (it will prompt you to install if needed)
-- **Linux:** Run `sudo apt install git`
+**Quick overview of the process:**
+1. **Fork** this repo → **Clone** your fork → **Create your folder** inside `submissions/`
+2. Add your assignment file (e.g., `python_fundamentals.ipynb`)
+3. **Commit** → **Push** → **Create a Pull Request**
+4. Trainer reviews and merges ✅
 
-Configure your identity (run these once):
-```bash
-git config --global user.name "Your Name"
-git config --global user.email "your_email@example.com"
-```
-
-### Step 1: Fork This Repository
-
-1. Click the **"Fork"** button at the top-right corner of this page
-2. This creates your own copy of the repository on your GitHub account
-
-### Step 2: Clone Your Forked Repository
-
-Open your terminal (Command Prompt / Git Bash / Terminal) and run:
-
-```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/ai-adventure.git
-```
-
-> 🔁 Replace `YOUR_GITHUB_USERNAME` with your actual GitHub username.
-
-### Step 3: Navigate Into the Project
-
-```bash
-cd ai-adventure
-```
-
-### Step 4: Go to the Submissions Folder
-
-```bash
-cd submissions
-```
-
-### Step 5: Create Your Personal Folder
-
-Create a folder using this **exact naming convention**:
-
-```
-FirstName_LastName_RollNumber
-```
-
-**Rules for folder naming:**
-- Use **PascalCase** (first letter of each word capitalized)
-- Separate Name and Roll Number with an **underscore** `_`
-- **No spaces**, no special characters, no emojis in folder names
-
-✅ **Correct Examples:**
-```
-Rahul_Kumar_B230001
-Priya_Sharma_B230045
-Mohammed_Ali_B230112
-```
-
-❌ **Wrong Examples:**
-```
-rahul kumar b230001     ← has spaces, no underscores, no capitals
-RAHUL_KUMAR_b230001     ← ALL CAPS is not PascalCase
-rahul-kumar-B230001     ← hyphens instead of underscores
-Rahul Kumar_B230001     ← space in name
-```
-
-Create the folder:
-```bash
-mkdir FirstName_LastName_RollNumber
-```
-
-Example:
-```bash
-mkdir Rahul_Kumar_B230001
-```
-
-### Step 6: Add Your Assignment File
-
-Navigate into your folder and add your work:
-
-```bash
-cd Rahul_Kumar_B230001
-```
-
-You can create a file directly from the terminal:
-```bash
-echo "This is my first assignment!" > assignment1.txt
-```
-
-Or simply copy/paste your assignment file into this folder using your file explorer.
-
-### Step 7: Stage Your Changes
-
-Go back to the root of the project:
-```bash
-cd ../..
-```
-
-Now tell Git to track your new files:
-```bash
-git add .
-```
-
-> 💡 `git add .` stages **all** new and changed files. You can also add specific files: `git add submissions/Rahul_Kumar_B230001/assignment1.txt`
-
-### Step 8: Commit Your Changes
-
-```bash
-git commit -m "Add assignment 1 - Rahul Kumar B230001"
-```
-
-> 💡 The commit message should be short and descriptive. Always include your name and roll number.
-
-### Step 9: Push to Your Fork
-
-```bash
-git push origin main
-```
-
-> This uploads your work to **your** GitHub fork.
-
-### Step 10 (Optional): Create a Pull Request
-
-1. Go to **your forked repo** on GitHub
-2. Click **"Contribute"** → **"Open Pull Request"**
-3. Add a title like: `Submission: Rahul Kumar B230001 - Assignment 1`
-4. Click **"Create Pull Request"**
-
-> 🎓 A Pull Request (PR) is how you propose your changes to the main repository. The trainer will review and merge it.
-
----
-
-## 🔄 Quick Reference — Git Commands Cheat Sheet
-
-| Command | What It Does |
-|---------|-------------|
-| `git clone <url>` | Download a repository to your computer |
-| `cd <folder>` | Navigate into a folder |
-| `mkdir <name>` | Create a new folder |
-| `git status` | Check what files have changed |
-| `git add .` | Stage all changes for commit |
-| `git commit -m "message"` | Save your changes with a description |
-| `git push origin main` | Upload your commits to GitHub |
-| `git pull origin main` | Download latest changes from GitHub |
+> ⚠️ If this is your first time using Git, **do NOT skip the guide**. Open [CONTRIBUTING.md](CONTRIBUTING.md) and follow every step.
 
 ---
 
